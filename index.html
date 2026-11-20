@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171714">
+  <meta name="description" content="Crisp & Co. — fresh, satisfying food made with care. Explore the menu and find your next favourite.">
+  <title>Crisp & Co. — Good food. Great mood.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Crisp and Co home"><span class="brand-mark">C</span><span>CRISP <i>& CO.</i></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#menu">The menu</a><a href="#promise">Our promise</a><a href="#visit">Find us</a>
+    </nav>
+    <a class="nav-cta" href="#menu">Explore the menu <span>↗</span></a>
+  </header>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Fresh from the kitchen</p>
+        <h1>GOOD FOOD.<br><em>GREAT MOOD.</em></h1>
+        <p class="hero-lead">Big flavour, golden crunch and the kind of comfort worth slowing down for. Welcome to your new favourite bite.</p>
+        <div class="actions"><a class="button button-light" href="#menu">See what's cooking <span>↓</span></a><a class="text-link" href="#promise">Why Crisp & Co.?</a></div>
+        <div class="hero-note"><span>✳</span><p><strong>Made fresh. Served happy.</strong><br>Good ingredients, thoughtful preparation, no fuss.</p></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a freshly prepared meal">
+        <div class="sun"></div><div class="plate"><div class="food food-one"></div><div class="food food-two"></div><div class="food food-three"></div><div class="leaf">✳</div></div>
+        <span class="art-sticker sticker-one">FRESH<br>EVERY DAY</span><span class="art-sticker sticker-two">CRUNCH<br>TIME!</span>
+      </div>
+    </section>
+    <section class="ticker" aria-label="Our values"><div>FRESH INGREDIENTS <b>✳</b> BIG FLAVOUR <b>✳</b> GOOD MOOD <b>✳</b> MADE WITH CARE <b>✳</b> FRESH INGREDIENTS <b>✳</b> BIG FLAVOUR <b>✳</b></div></section>
+    <section class="section menu-section" id="menu">
+      <div class="section-head"><div><p class="eyebrow"><span></span> The good stuff</p><h2>Meet the <em>menu.</em></h2></div><p>Simple favourites, made with care. Menu items and prices can be connected to the Crisp & Co. ordering app when the kitchen is ready.</p></div>
+      <div class="menu-grid">
+        <article class="menu-card"><div class="dish dish-burger"><span>🍔</span></div><div class="dish-info"><span class="tag">A classic</span><h3>The House Burger</h3><p>A satisfying stack with crisp greens and our signature sauce.</p></div></article>
+        <article class="menu-card"><div class="dish dish-chicken"><span>🍗</span></div><div class="dish-info"><span class="tag">Golden & crispy</span><h3>Crunch Chicken</h3><p>Seasoned, golden and ready for your favourite dip.</p></div></article>
+        <article class="menu-card"><div class="dish dish-fries"><span>🍟</span></div><div class="dish-info"><span class="tag">Share the joy</span><h3>Loaded Fries</h3><p>Golden fries with a generous finish and plenty of flavour.</p></div></article>
+      </div>
+      <p class="menu-disclaimer">Illustrative menu concepts. Availability, ingredients and pricing should be confirmed by the restaurant before orders are accepted.</p>
+    </section>
+    <section class="promise" id="promise"><div class="promise-copy"><p class="eyebrow"><span></span> The Crisp promise</p><h2>THE GOOD STUFF<br>IS <em>OUR THING.</em></h2><p>We believe the best meals bring people together. Every detail should feel welcoming — from the first hello to the last bite.</p><a class="button button-dark" href="#visit">Get to know us <span>↗</span></a></div><div class="promise-list"><article><b>01</b><div><h3>Fresh by choice</h3><p>Thoughtful ingredients and food prepared with care.</p></div></article><article><b>02</b><div><h3>Flavour first</h3><p>Comforting favourites with a little extra personality.</p></div></article><article><b>03</b><div><h3>Good energy</h3><p>A friendly experience that makes every visit feel easy.</p></div></article></div></section>
+    <section class="visit" id="visit"><div><p class="eyebrow"><span></span> Come say hello</p><h2>GOOD FOOD IS<br>BETTER <em>TOGETHER.</em></h2><p>Our location, opening hours and contact details will be added once confirmed.</p></div><a class="button button-light" href="https://github.com/Baraka008/crisp-co-app" target="_blank" rel="noopener noreferrer">Explore the companion app ↗</a></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">C</span><span>CRISP <i>& CO.</i></span></a><p>Good food. Great mood.</p><small>© <span id="year"></span> Crisp & Co. Concept website.</small></footer>
+</body>
+</html>
